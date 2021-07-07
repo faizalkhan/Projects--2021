@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angularlifecycle';
+  names = 'Angular life cycle';
+  show = false;
+  toggle()
+  {
+   this.show = !this.show;
+  }
 }
